@@ -6,7 +6,7 @@
 
 One line of office comedy for make.fun's "Make the AI Judge Laugh: the Office Joke Open" bounty. A single joke about office life, at most 200 characters, written by `main.ts` to `/output/entry.txt` — a reply-all thread that escalates from a polite opt-out request into an accidental promotion.
 
-> I replied-all 'please remove me from this thread' and got 14 replies, a calendar invite, and a promotion to thread manager.
+> I replied-all asking to be removed from the thread; I got 14 replies, a calendar invite, and a promotion to Thread Manager.
 
 ## Run it
 

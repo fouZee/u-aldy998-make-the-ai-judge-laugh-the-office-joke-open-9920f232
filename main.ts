@@ -10,7 +10,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const JOKE =
-  "I replied-all 'please remove me from this thread' and got 14 replies, a calendar invite, and a promotion to thread manager.";
+  "I replied-all asking to be removed from the thread; I got 14 replies, a calendar invite, and a promotion to Thread Manager.";
 
 const MAX_CHARS = 200;
 
@@ -25,6 +25,9 @@ function validate(joke: string): void {
   }
   if (joke.includes("\n")) {
     throw new Error("entry must be a single line");
+  }
+  if (joke !== joke.trim()) {
+    throw new Error("entry must not have leading or trailing whitespace");
   }
 }
 
